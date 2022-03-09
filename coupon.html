@@ -137,7 +137,11 @@
 </head>
 
 <body>
-	<div class="icon-bar"><a href="https://www.facebook.com/HabibOilMills/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/habib_oil/?hl=en" class="twitter" target="_blank"><i class="fa fa-instagram"></i></a> <a href="https://www.youtube.com/channel/UCyYEaMnGSY3y5he2TSO9R-g" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a></div>
+	<div class="icon-bar">
+        <a href="https://www.facebook.com/HabibOilMills/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/habib_oil/?hl=en" class="twitter" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCyYEaMnGSY3y5he2TSO9R-g" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+    </div>
 	<div class="off_canvars_overlay"></div>
 	<div class="offcanvas_menu offcanvas_two">
 		<div class="container">
@@ -404,97 +408,60 @@
 			</div>
 		</div>
 	</header>
-	<div class="breadcrumbs_area">
+	<div class="breadcrumbs_area"></div>
+	<div class="product_details variable_product mt-3 mb-4">
 		<div class="container">
-			<div class="row">
+            <div class="row">
 				<div class="col-12">
-					<div class="breadcrumb_content"></div>
+					<nav aria-label="breadcrumb">
+                        <ol class="breadcrumb shadow-lg bg-white">
+                            <li class="breadcrumb-item custom-breadcrumb">
+                                <a href="index.html" class="pe-md-3 ps-md-3 ps-3 pe-2">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item custom-breadcrumb">
+                                <a href="coupon.html" class="px-md-3 pe-1 my-3">Coupon</a>
+                            </li>
+                        </ol>
+                    </nav>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div id="account-login" class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb shadow-lg bg-white">
-                        <li class="breadcrumb-item custom-breadcrumb">
-                            <a href="index.html" class="pe-md-3 ps-md-3 ps-3 pe-2">
-                                <i class="fa fa-home" aria-hidden="true"></i>
-                                Home
-                            </a>
-                        </li>
-                        <li class="breadcrumb-item custom-breadcrumb">
-                            <a href="login.html" class="px-md-3 pe-1 my-3">Login</a>
-                        </li>
-                    </ol>
-                </nav>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6">
+                    <div class="alert alert-coupon">
+                        <h4 class="coupon-discount">-10% Discount</h4>
+                        <p class="coupon-off">Rs 250 Off</p>
+                        <p class="coupon-valid">Valid Till: 2-9-2022</p>
+                        <p class="coupon-promo-code">Promo Code: <span class="coupon-code">2222</span></p>
+                        <p class="coupon-order">Applicable only on online orders</p>
+                    </div>
+                    <div class="alert alert-coupon">
+                        <h4 class="coupon-discount">Habib</h4>
+                        <p class="coupon-off">Rs 100 Off</p>
+                        <p class="coupon-valid">Valid Till: 3-4-2022</p>
+                        <p class="coupon-promo-code">Promo Code: <span class="coupon-code">#habib1</span></p>
+                        <p class="coupon-order">Applicable only on online orders</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="alert alert-coupon">
+                        <h4 class="coupon-discount">Dil Ka Mamla Hai</h4>
+                        <p class="coupon-off">Rs 50 Off</p>
+                        <p class="coupon-valid">Valid Till: 31-2-2022</p>
+                        <p class="coupon-promo-code">Promo Code: <span class="coupon-code">#DilKaMamlaHai</span></p>
+                        <p class="coupon-order">Applicable only on online orders</p>
+                    </div>
+                    <div class="alert alert-coupon">
+                        <h4 class="coupon-discount">Coupon2</h4>
+                        <p class="coupon-off">Rs 150 Off</p>
+                        <p class="coupon-valid">Valid Till: 3-3-2022</p>
+                        <p class="coupon-promo-code">Promo Code: <span class="coupon-code">#getdiscount</span></p>
+                        <p class="coupon-order">Applicable only on online orders</p>
+                    </div>
+                </div>
             </div>
-        </div>
-		<div class="row">
-			<div id="content" class="col-sm-12">
-				<div class="customer_login">
-					<div class="container">
-						<div class="row">
-                            <div class="col-lg-6 col-md-6">
-								<div class="account_form register">
-									<h2>Register</h2>
-									<form action="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/register" method="POST" enctype="multipart/form-data">
-										<p>
-											<label>First Name <span>*</span></label>
-											<input name="firstname" placeholder="" id="input-firstname">
-										</p>
-										<p>
-											<label>Last Name <span>*</span></label>
-											<input name="lastname" placeholder="" id="input-lastname">
-										</p>
-										<p>
-											<label>Email <span>*</span></label>
-											<input type="email" name="email" placeholder="E-Mail Address" id="input-email">
-										</p>
-										<p>
-											<label>Phone Number <span>*</span></label>
-											<input type="tel" name="telephone" placeholder="" id="input-telephone">
-										</p>
-										<p>
-											<label>Password <span>*</span></label>
-											<input type="password" name="password" placeholder="Password" id="input-password">
-										</p>
-										<p>
-											<label>Confirm Password <span>*</span></label>
-											<input type="password" name="confirm" placeholder="" id="input-confirm">
-										</p>
-										<div><span style="font-size:10px"><input name="agree" type="checkbox" value="1" style="width:3%">I Agree to Privacy Policy</span></div>
-										<div class="login_submit">
-											<button type="submit">Register</button>
-										</div>
-									</form>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6">
-								<div class="account_form">
-									<h2>login</h2>
-									<form action="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/login" method="post" enctype="multipart/form-data">
-										<p>
-											<label>Username or email <span>*</span></label>
-											<input name="email" placeholder="E-Mail Address" id="input-email">
-										</p>
-										<p>
-											<label>Password <span>*</span></label>
-											<input type="password" name="password" placeholder="Password" id="input-password">
-										</p>
-										<div class="login_submit"><a href="#">Lost your password?</a>
-											<label for="remember">
-												<input id="remember" type="checkbox"> Remember me</label>
-											<button type="submit">login</button>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 	<footer class="footer_widgets color_two">

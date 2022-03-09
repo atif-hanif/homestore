@@ -13959,3 +13959,58 @@ select.list-dt:focus {
 .status-p, .price {
 	text-align: right;
 }
+
+/* Coupon */
+
+.alert-coupon {
+	border: 1px solid rgba(0,0,0,.125);
+	background-color: #fff;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.coupon-discount {
+	background-color: #c90000;
+	color: #fff;
+	padding: 5px 5px 5px 15px;
+	border-radius: 5px;
+}
+
+.coupon-off {
+	color: #ffbf31;
+	width: 50%;
+	display: inline-block;
+	padding-top: 5px;
+}
+
+.coupon-valid {
+	width: 50%;
+	float: right;
+	display: inline-block;
+	text-align: right;
+	padding-top: 5px;
+}
+
+.coupon-code {
+	color: #c90000;
+	font-size: 20px;
+}
+
+.coupon-order {
+	background-color: #ffbf31;
+	border-radius: 50px;
+	text-align: center;
+	margin-top: 10px
+}
+
+.coupons {
+	background-color: #c90000;
+	display: block;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	width: 15%;
+	padding: 15px 0px;
+}
