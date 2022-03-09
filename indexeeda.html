@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179428375-1"></script>
+	<script>
+	function gtag() {
+		dataLayer.push(arguments)
+	}
+	window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-179428375-1");
+	</script>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>HOM – Homestore</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="catalog/view/assets/img/favicon.ico">
+	<link rel="stylesheet" href="catalog/view/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/slick.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/font.awesome.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/ionicons.min.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/linearicons.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/animate.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/jquery-ui.min.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/slinky.menu.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/plugins.css">
+	<link rel="stylesheet" href="catalog/view/assets/css/style.css">
+	<script src="catalog/view/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+	<script src="catalog/view/assets/js/vendor/jquery-3.4.1.min.js"></script>
+	<link href="catalog/view/javascript/jquery/magnific/magnific-popup.css" type="text/css" rel="stylesheet" media="screen">
+	<link href="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet" media="screen">
+	<link href="catalog/view/theme/default/stylesheet/d_blog_module/d_blog_module.css" type="text/css" rel="stylesheet" media="screen">
+	<link href="catalog/view/theme/default/stylesheet/d_blog_module/bootstrap.css" type="text/css" rel="stylesheet" media="screen">
+	<link href="catalog/view/theme/default/stylesheet/d_blog_module/theme/default.css" type="text/css" rel="stylesheet" media="screen">
+	<link href="catalog/view/javascript/d_fileinput/fileinput.css" type="text/css" rel="stylesheet" media="screen">
+	<link href="catalog/view/javascript/d_bootstrap_rating/bootstrap-rating.css" type="text/css" rel="stylesheet" media="screen">
+	<link href="catalog/view/theme/default/stylesheet/d_ajax_search/d_ajax_search.css" type="text/css" rel="stylesheet" media="screen">
+	<script src="catalog/view/javascript/jquery/magnific/jquery.magnific-popup.min.js" type="text/javascript"></script>
+	<script src="catalog/view/javascript/jquery/datetimepicker/moment/moment.min.js" type="text/javascript"></script>
+	<script src="catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+	<script src="catalog/view/theme/default/javascript/d_blog_module/main.js" type="text/javascript"></script>
+	<script src="catalog/view/theme/default/javascript/d_blog_module/post.js" type="text/javascript"></script>
+	<script src="catalog/view/javascript/d_fileinput/fileinput.js" type="text/javascript"></script>
+	<script src="catalog/view/javascript/d_fileinput/canvas-to-blob.js" type="text/javascript"></script>
+	<script src="catalog/view/javascript/d_bootstrap_rating/bootstrap-rating.js" type="text/javascript"></script>
+	<script src="catalog/view/theme/default/javascript/d_blog_module/review.js" type="text/javascript"></script>
+	<script src="catalog/view/javascript/d_vue/vue.min.js" type="text/javascript"></script>
+	<script src="catalog/view/javascript/d_tinysort/tinysort.min.js" type="text/javascript"></script>
+	<script src="catalog/view/javascript/d_tinysort/jquery.tinysort.min.js" type="text/javascript"></script>
+	<style>
+	.icon-bar {
+		position: fixed;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		z-index: 9
+	}
+	
+	.icon-bar a {
+		display: block;
+		text-align: center;
+		padding: 16px;
+		transition: all .3s ease;
+		color: #fff;
+		font-size: 20px
+	}
+	
+	.icon-bar a:hover {
+		background-color: #000
+	}
+	
+	.facebook {
+		background: #3B5998;
+		color: #fff
+	}
+	
+	.twitter {
+		background: #55ACEE;
+		color: #fff
+	}
+	
+	.google {
+		background: #dd4b39;
+		color: #fff
+	}
+	
+	.linkedin {
+		background: #007bb5;
+		color: #fff
+	}
+	
+	.youtube {
+		background: #b00;
+		color: #fff
+	}
+	
+	.content {
+		margin-left: 75px;
+	}
+	
+	@media (min-width:320px) and (max-width:480px) {
+		.icon-bar {
+			position: fixed;
+			top: 35%;
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+			z-index: 9
+		}
+		.icon-bar a {
+			display: block;
+			text-align: center;
+			padding: 10px;
+			transition: all .3s ease;
+			color: #fff;
+			font-size: 15px
+		}
+		.icon-bar a:hover {
+			background-color: #000
+		}
+		.facebook {
+			background: #3B5998;
+			color: #fff
+		}
+		.twitter {
+			background: #55ACEE;
+			color: #fff
+		}
+		.google {
+			background: #dd4b39;
+			color: #fff
+		}
+		.linkedin {
+			background: #007bb5;
+			color: #fff
+		}
+		.youtube {
+			background: #b00;
+			color: #fff
+		}
+		.content {
+			margin-left: 75px;
+		}
+	}
+	</style>
+</head>
+
+<body>
+	<div class="icon-bar"><a href="https://www.facebook.com/HabibOilMills/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/habib_oil/?hl=en" class="twitter" target="_blank"><i class="fa fa-instagram"></i></a> <a href="https://www.youtube.com/channel/UCyYEaMnGSY3y5he2TSO9R-g" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a></div>
+	<div class="off_canvars_overlay"></div>
+	<div class="offcanvas_menu offcanvas_two">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="canvas_open"><a href="javascript:void(0)"><i class="icon-menu"></i></a></div>
+					<div class="offcanvas_menu_wrapper">
+						<div class="canvas_close"><a href="javascript:void(0)"><i class="icon-x"></i></a></div>
+						<div class="language_currency"></div>
+						<div class="header_social text-right">
+							<ul>
+								<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+								<li><a href="#"><i class="ion-social-googleplus-outline"></i></a></li>
+								<li><a href="#"><i class="ion-social-youtube-outline"></i></a></li>
+								<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+								<li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+							</ul>
+						</div>
+						<div class="search_container offcanvas__search">
+							<form action="#">
+								<div class="search_box">
+									<input placeholder="Search product...">
+									<button type="submit"><span class="lnr lnr-magnifier"></span></button>
+								</div>
+							</form>
+						</div>
+						<div class="call-support">
+							<p><a href="tel:(08)23456789">(08) 23 456 789</a> Customer Support</p>
+						</div>
+						<div id="menu" class="text-left">
+							<ul class="offcanvas_main_menu">
+								<li class="menu-item-has-children active"><a href="#">Home</a>
+									<ul class="sub-menu">
+										<li class="menu-item-has-children"><a href="#">Home Organic</a>
+											<ul class="sub-menu">
+												<li><a href="http://www.futurealiti.com/index.php?_route_=index-2.html">Organic 01</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=index-3.html">Organic 02</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=index-4.html">Organic 03</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=index-5.html">Organic 04</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=index-6.html">Organic 05</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children"><a href="#">Home Fashion</a>
+											<ul class="sub-menu">
+												<li><a href="http://www.futurealiti.com/index.php?_route_=index-8.html">Fashion 01</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=index-9.html">Fashion 02</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children"><a href="#">Home Cosmetic</a>
+											<ul class="sub-menu">
+												<li><a href="http://www.futurealiti.com/index.php?_route_=index-7.html">Cosmetic 01</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=index-10.html">Cosmetic 02</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item-has-children"><a href="#">Shop</a>
+									<ul class="sub-menu">
+										<li class="menu-item-has-children"><a href="#">Shop Layouts</a>
+											<ul class="sub-menu">
+												<li><a href="http://www.futurealiti.com/index.php?_route_=shop.html">shop</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=shop-fullwidth.html">Full Width</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=shop-fullwidth-list.html">Full Width list</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=shop-right-sidebar.html">Right Sidebar</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=shop-right-sidebar-list.html">Right Sidebar list</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=shop-list.html">List View</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children"><a href="#">other Pages</a>
+											<ul class="sub-menu">
+												<li><a href="http://www.futurealiti.com/index.php?_route_=cart.html">cart</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=wishlist.html">Favourite</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=checkout.html">Checkout</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=my-account.html">my account</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=404.html">Error 404</a></li>
+											</ul>
+										</li>
+										<li class="menu-item-has-children"><a href="#">Product Types</a>
+											<ul class="sub-menu">
+												<li><a href="http://www.futurealiti.com/index.php?_route_=product-details.html">product details</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=product-sidebar.html">product sidebar</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=product-grouped.html">product grouped</a></li>
+												<li><a href="http://www.futurealiti.com/index.php?_route_=variable-product.html">product variable</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item-has-children"><a href="#">blog</a>
+									<ul class="sub-menu">
+										<li><a href="http://www.futurealiti.com/index.php?_route_=blog.html">blog</a></li>
+										<li><a href="http://www.futurealiti.com/index.php?_route_=blog-details.html">blog details</a></li>
+										<li><a href="http://www.futurealiti.com/index.php?_route_=blog-fullwidth.html">blog fullwidth</a></li>
+										<li><a href="http://www.futurealiti.com/index.php?_route_=blog-sidebar.html">blog sidebar</a></li>
+									</ul>
+								</li>
+								<li class="menu-item-has-children"><a href="#">pages</a>
+									<ul class="sub-menu">
+										<li><a href="http://www.futurealiti.com/index.php?_route_=about.html">About Us</a></li>
+										<li><a href="http://www.futurealiti.com/index.php?_route_=services.html">services</a></li>
+										<li><a href="http://www.futurealiti.com/index.php?_route_=faq.html">Frequently Questions</a></li>
+										<li><a href="http://www.futurealiti.com/index.php?_route_=contact.html">contact</a></li>
+										<li><a href="http://www.futurealiti.com/index.php?_route_=login.html">login</a></li>
+										<li><a href="http://www.futurealiti.com/index.php?_route_=404.html">Error 404</a></li>
+									</ul>
+								</li>
+								<li class="menu-item-has-children"><a href="http://www.futurealiti.com/index.php?_route_=my-account.html">my account</a></li>
+								<li class="menu-item-has-children"><a href="http://www.futurealiti.com/index.php?_route_=about.html">about Us</a></li>
+								<li class="menu-item-has-children"><a href="http://www.futurealiti.com/index.php?_route_=contact.html">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="offcanvas_footer"><span><a href="#"><i class="fa fa-envelope-o"></i> info@yourdomain.com</a></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="main_header">
+			<div class="header_top">
+				<div class="container">
+					<div class="row align-items-center" style="color:#fff">
+						<div class="col-lg-4 col-md-4"><img src="catalog/view/assets/img/whatsapp.png" height="30px" width="30px"> 0300 2076660 <i class="icon fa fa-email" aria-hidden="true"></i> <b>UAN : 021-111-466-426</b></div>
+						<div class="col-lg-6 col-md-6">
+							<marquee style="padding-top:8px"><img src="catalog/view/assets/img/rider.png" height="20px" width="20px">&nbsp;&nbsp;&nbsp; <b>Karachi Only</b></marquee>
+						</div>
+						<div class="col-lg-2 col-md-2"><a href="#">Track My Order</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="header_middle">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-2 col-md-3 col-sm-3 col-3">
+							<div class="logo">
+								<a href="index9328.html?route=common/home"><img src="catalog/view/assets/img/logo/logo2.png" alt=""></a>
+							</div>
+						</div>
+						<div class="col-lg-10 col-md-6 col-sm-7 col-8">
+							<div class="header_right_info">
+								<div class="search_container mobail_s_none">
+									<form>
+										<div class="search_box" id="search_box">
+											<input placeholder="Search product..." name="search">
+											<button type="submit"><span class="lnr lnr-magnifier"></span></button>
+										</div>
+									</form>
+								</div>
+								<div class="header_account_area">
+									<div class="header_account_list register">
+										<ul>
+											<li><a href="index5502.html?route=account/register"><span style="color:#000">Register</span></a></li>
+											<li><span style="color:#000">/</span></li>
+											<li><a href="indexe223.html?route=account/login"><span style="color:#000">Login</span></a></li>
+										</ul>
+									</div>
+									<div class="header_account_list header_wishlist"><a href="indexe223.html?route=account/wishlist"><span class="lnr lnr-heart"></span> <span class="item_count">0</span></a></div>
+									<div class="header_account_list mini_cart_wrapper"><a href="javascript:void(0)"><span class="lnr lnr-cart" style="color:#000"></span><span id="carttotal" class="item_count">0</span></a>
+										<div class="mini_cart" id="mini_cart" style="overflow:scroll">
+											<div class="cart_gallery">
+												<div class="cart_close">
+													<div class="cart_text">
+														<h3>cart</h3></div>
+													<div class="mini_cart_close"><a href="javascript:void(0)"><i class="icon-x"></i></a></div>
+												</div>
+											</div>
+											<div class="mini_cart_table">
+												<div class="cart_table_border">
+													<div class="cart_total"><span>Sub total:</span> <span class="price">$125.00</span></div>
+													<div class="cart_total mt-10"><span>total:</span> <span class="price">$125.00</span></div>
+												</div>
+											</div>
+											<div class="mini_cart_footer">
+												<div class="cart_button">
+													<a href="http://www.futurealiti.com/index.php?_route_=<div id=" cart class="btn-group btn-block">
+														<button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total">0 item(s) - Rs 0.00</span></button>
+														<ul class="dropdown-menu pull-right">
+															<li>
+																<p class="text-center">Your shopping cart is empty!</p>
+															</li>
+														</ul>
+													</a>
+												</div>"><i class="fa fa-shopping-cart"></i> View cart</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header_bottom sticky-header">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-6 mobail_s_block">
+						<div class="search_container">
+							<form action="#">
+								<div class="hover_category">
+									<select class="select_option" name="select" id="categori3">
+										<option selected value="1">Select Categories</option>
+										<option value="57">Banaspati</option>
+										<option value="18">Cooking Oil</option>
+									</select>
+								</div>
+								<div class="search_box">
+									<input placeholder="Search product...">
+									<button type="submit"><span class="lnr lnr-magnifier"></span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="categories_menu">
+							<div class="categories_title">
+								<h2 class="categori_toggle">All Categories</h2></div>
+							<div class="categories_menu_toggle">
+								<ul>
+									<li></li>
+									<li class="menu_item_children"><a href="index70a9.html?route=product/category&amp;path=57">Banaspati <i class="fa fa-angle-right"></i><span class="expand"></span></a>
+										<ul class="categories_mega_menu column_2" style="width:215px">
+											<li class="menu_item_children"><a href="#">Banaspati<span class="expand"></span></a>
+												<ul class="categorie_sub_menu">
+													<li><a href="index51fe.html?route=product/category&amp;path=57_62">Habib Banaspati</a></li>
+													<li><a href="indexa871.html?route=product/category&amp;path=57_64">Handi Banaspati</a></li>
+													<li><a href="index6938.html?route=product/category&amp;path=57_63">Nayab Banaspati</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li></li>
+									<li class="menu_item_children"><a href="index7fa3.html?route=product/category&amp;path=18">Cooking Oil <i class="fa fa-angle-right"></i><span class="expand"></span></a>
+										<ul class="categories_mega_menu column_2" style="width:215px">
+											<li class="menu_item_children"><a href="#">Cooking Oil<span class="expand"></span></a>
+												<ul class="categorie_sub_menu">
+													<li><a href="index6b9c.html?route=product/category&amp;path=18_59">Habib Oil</a></li>
+													<li><a href="index9f27.html?route=product/category&amp;path=18_61">Handi Oil</a></li>
+													<li><a href="indexf68c.html?route=product/category&amp;path=18_60">Nayab Oil</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="main_menu menu_position">
+							<nav>
+								<ul>
+									<li><a href="index9328.html?route=common/home">Home</a></li>
+									<li><a href="index61bf.html?route=extension/d_blog_module/category&amp;category_id=1">Blog</a></li>
+									<li><a href="indexeb2e.html?route=extension/d_blog_module/category&amp;category_id=8">Recipes</a></li>
+									<li><a href="index2724.html?route=information/contact">Contact Us</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="call-support">
+							<a target="_blank" href="https://play.google.com/store/apps/details?id=com.homestore"><img src="catalog/view/assets/img/logo/12311.png" height="40px" width="200px" style="margin-bottom:-100px;margin-top:-100px;z-index:100;position:relative" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb shadow-lg bg-white">
+                        <li class="breadcrumb-item custom-breadcrumb">
+                            <a href="index9328.html?route=common/home" class="pe-md-3 ps-md-3 ps-3 pe-2">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="breadcrumb-item custom-breadcrumb">
+                            <a href="index61bf.html?route=extension/d_blog_module/category&amp;category_id=1" class="px-md-3 pe-1 my-3">Blogs</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+		<div class="row mt-4">
+			<main id="content" data-route="" class="col-sm-12">
+				<article class="bm">
+					<div class="heading bm-post-info clearfix">
+						<h1 class="h1 title">Dum Ka Qeema</h1><span class="title-divider"></span>
+						<div class="title-information">
+							<div class="rating rating-4">
+								<input value="4" type="hidden" name="rating" class="rating-loading" data-filled="fa fa-star fa-stack-1x" data-empty="fa fa-star-o fa-stack-1x empty" data-readonly>
+							</div>
+							<script>
+							$(document).ready(function() {
+								$("input[name='rating']").rating()
+							});
+							</script>
+							<div class="details">Posted by <a href="index8143.html?route=extension/d_blog_module/author&amp;author_id=1" rel="bookmark">Author</a> on <a href="index0759.html?route=extension/d_blog_module/search&amp;date_published=10-2021" rel="bookmark">Thursday 28 October 2021</a></div>
+						</div>
+						<div class="image">
+							<a class="popup" href="image/cache/catalog/HOM_lates/Blog-Posts-3_1400x_875_-min-1400x875.jpg" title="Dum Ka Qeema"><img src="image/cache/catalog/HOM_lates/Blog-Posts-3_1400x_875_-min-1200x750.jpg" alt="" class="img-responsive"></a>
+						</div>
+					</div>
+					<div class="content bm-post-content">
+						<div id="description" class="description">
+							<h3>Ingredients:</h3>
+                            <ul class="list">
+                                <li>Minced meat (beef / mutton) 1 Kg (Fine minced by machine twice)</li>
+                                <li>Yogurt beaten 1 1/2 cup</li>
+                                <li>Papaya Rice 1 1/2 cup</li>
+                                <li>Onion 1 medium</li>
+                                <li>Ginger paste 2tbsp</li>
+                                <li>Ginger (Julienne) 1tbsp</li>
+                                <li>Mint 2 tbsp</li>
+                                <li>Coal 1 small piece</li>
+                                <li>Habib Cooking Oil / Banaspati 1/2 cup</li>
+                                <li>Habib Dum Ka Qeema Recipe Mix 1 packet</li>
+                            </ul>
+							<h3 class="pt-3">Method:</h3>
+                            <ul class="lists">
+                                <li>Marinate the meat, papaya, ginger paste, yogurt and Habib Dum ka Qeema Recipe Mix and keep aside for 2-3 hours. Take minced meat in a cooking pan and place a piece of bread in it.</li>
+                                <li>Heat the coal piece until red and place in on the bread. Pour 1 tbsp of oil on coal and cover the pan for 10 minutes. Remove the bread and coal piece from the pan.</li>
+                                <li>Cook the minced meat on medium flame for 30-35 minutes or till water dries up. Stir occasionally.</li>
+                                <li>In a separate pan fry onion till golden and add into minced meat. Cook further on low flame for 10-15 minutes or till oil separates from meat. Habib Dum ka Qeema is now ready. Garnish the dish with chopped mint, ginger julienne, cube lemon and onion rings. Serve hot with naans.</li>
+                            </ul>
+                        </div>
+						<div class="row post-nav">
+							<div class="col-md-6 post-nav-left">
+								<a href="index4fdd.html?route=extension/d_blog_module/post&amp;post_id=13" class="media">
+									<div class="media-left"><img class="media-object" src="image/cache/catalog/HOM_lates/Blog-Posts-2_1400x_875_-min-1200x750.jpg" data-holder-rendered="true"></div>
+									<div class="media-body">
+										<div class="h4 media-heading">Habib Jhatt Patt Recipe Mixes</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-6 post-nav-right">
+								<a href="indexe1b8.html?route=extension/d_blog_module/post&amp;post_id=16" class="media">
+									<div class="media-body">
+										<div class="h4 media-heading">New Year Resolution with Habib Oil Mills (HOM)</div>
+									</div>
+									<div class="media-right"><img class="media-object" src="image/cache/catalog/habib-696x418-1200x750.jpg" data-holder-rendered="true"></div>
+								</a>
+							</div>
+						</div>
+						<div class="bm-author">
+							<div class="author-image">
+								<a href="index8143.html?route=extension/d_blog_module/author&amp;author_id=1"><img src="image/cache/catalog/Universal_(188)-400x400.jpg" class="img-responsive"></a>
+							</div>
+							<div class="author-body">
+								<a href="index8143.html?route=extension/d_blog_module/author&amp;author_id=1">
+									<div class="h4 author-name">Author</div>
+								</a>
+								<div class="author-description"></div><a href="index8143.html?route=extension/d_blog_module/author&amp;author_id=1" class="read-more">read more ⟶</a></div>
+						</div>
+						<div class="bm-reviews">
+							<div class="h2"><span>3 comments</span></div>
+							<div id="reviews">
+								<div class="media review review-11">
+									<div class="rating rating-4">
+										<input value="4" type="hidden" name="rating" class="rating-loading" data-filled="fa fa-star fa-stack-1x" data-empty="fa fa-star-o fa-stack-1x empty" data-readonly>
+									</div>
+									<script>
+									$(document).ready(function() {
+										$("input[name='rating']").rating()
+									});
+									</script>
+									<div class="media-left">
+										<div class="image"><img class="media-object" src="image/cache/catalog/d_blog_module/no_profile_image-70x70.png" alt="majiddd" style="max-width:70px"></div>
+									</div>
+									<div class="media-body">
+										<div class="btn-group btn-group-xs pull-right" role="group" aria-label="Extra-small button group">
+											<button type="button" class="btn btn-primary reply-to" data-review-id="11" data-author="majiddd"><i class="fa fa-reply"></i> Reply</button>
+										</div>
+										<div class="media-heading">
+											<div class="h4">majiddd</div><span class="date-added">Wednesday 02nd March 2022</span></div>
+										<p class="description">eteretret fhgfghfhgfgfh hghjj gjgjgj jghkjgjhyjfthm ugujgjgj,</p>
+										<div class="replies"></div>
+									</div>
+								</div>
+								<div class="media review review-10">
+									<div class="rating rating-4">
+										<input value="4" type="hidden" name="rating" class="rating-loading" data-filled="fa fa-star fa-stack-1x" data-empty="fa fa-star-o fa-stack-1x empty" data-readonly>
+									</div>
+									<script>
+									$(document).ready(function() {
+										$("input[name='rating']").rating()
+									});
+									</script>
+									<div class="media-left">
+										<div class="image"><img class="media-object" src="image/cache/catalog/d_blog_module/no_profile_image-70x70.png" alt="mwqasasa" style="max-width:70px"></div>
+									</div>
+									<div class="media-body">
+										<div class="btn-group btn-group-xs pull-right" role="group" aria-label="Extra-small button group">
+											<button type="button" class="btn btn-primary reply-to" data-review-id="10" data-author="mwqasasa"><i class="fa fa-reply"></i> Reply</button>
+										</div>
+										<div class="media-heading">
+											<div class="h4">mwqasasa</div><span class="date-added">Wednesday 02nd March 2022</span></div>
+										<p class="description">ffggghhhjiweukwuk,ewhkueutrewrewre</p>
+										<div class="replies"></div>
+									</div>
+								</div>
+								<div class="media review review-9">
+									<div class="rating rating-5">
+										<input value="5" type="hidden" name="rating" class="rating-loading" data-filled="fa fa-star fa-stack-1x" data-empty="fa fa-star-o fa-stack-1x empty" data-readonly>
+									</div>
+									<script>
+									$(document).ready(function() {
+										$("input[name='rating']").rating()
+									});
+									</script>
+									<div class="media-left">
+										<div class="image"><img class="media-object" src="image/cache/catalog/d_blog_module/no_profile_image-70x70.png" alt="hira" style="max-width:70px"></div>
+									</div>
+									<div class="media-body">
+										<div class="btn-group btn-group-xs pull-right" role="group" aria-label="Extra-small button group">
+											<button type="button" class="btn btn-primary reply-to" data-review-id="9" data-author="hira"><i class="fa fa-reply"></i> Reply</button>
+										</div>
+										<div class="media-heading">
+											<div class="h4">hira</div><span class="date-added">Tuesday 01st March 2022</span></div>
+										<p class="description">nice articles, i like it,</p>
+										<div class="replies"></div>
+									</div>
+								</div>
+								<div class="row bm-pagination">
+									<div class="col-sm-6 text-left"></div>
+									<div class="col-sm-6 text-right">Showing 1 to 1 of 3 (1 Pages)</div>
+								</div>
+							</div>
+						</div>
+						<div class="card comment-card mb-4">
+                            <div class="card-body">
+                                <form id="form_review" class="form-horizontal form-review">
+                                    <div class="h2 text-write"><span>Leave a comment</span></div>
+                                    <div class="h2 text-reply hidden"><span>Leave a reply</span></div>
+                                    <div id="review_notification"></div>
+                                    <div class="form-group">
+                                        <div id="guest_info">
+                                            <div class="col-sm-12 col-md-5 required" id="input_author">
+                                                <label class="control-label" for="review_author">Your Name</label>
+                                                <input name="author" id="review_author" class="form-control">
+                                            </div>
+                                            <div class="col-sm-12 col-md-5 required" id="input_email">
+                                                <label class="control-label" for="review_email">Your Email</label>
+                                                <input name="email" id="review_email" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-2 required input-rating" id="input_rating">
+                                            <label class="control-label">Rating</label>
+                                            <div class="rating rating-">
+                                                <input type="hidden" name="rating" class="rating-loading" data-filled="fa fa-star fa-stack-1x" data-empty="fa fa-star-o fa-stack-1x empty">
+                                            </div>
+                                            <script>
+                                            $(document).ready(function() {
+                                                $("input[name='rating']").rating()
+                                            });
+                                            </script>
+                                        </div>
+                                        <div class="col-sm-12 col-md-4 required hidden" id="input_cancel_reply">
+                                            <label class="control-label">Reply to:</label>
+                                            <div class="input-group">
+                                                <div class="input-group-addon name"></div><span class="input-group-btn"><a class="btn btn-danger cancel-reply"><i class="fa fa-trash-o"></i></a></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group required">
+                                        <div class="col-sm-12">
+                                            <label class="control-label" for="input-review">Your Comment</label>
+                                            <textarea name="description" rows="3" id="input-review" class="form-control"></textarea>
+                                            <div class="help-block"><span class="text-danger">Note:</span> HTML is not translated!</div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-12 float-right">
+                                            <div class="buttons clearfix">
+                                                <div class="pull-right">
+                                                    <button type="button" id="button_review" data-loading-text="Loading..." class="btn btn-primary comment-btn">Comment</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hidden"></div>
+                                    <input name="post_id" id="post_id" class="hidden" value="20">
+                                    <input name="reply_to_review_id" id="reply_to_review_id" class="hidden">
+                                </form>
+                            </div>
+                        </div>
+						<script>
+						$(function() {
+							bm.review = $.extend(!0, {}, Review), bm.review.init({
+								form: $("#form_review"),
+								reviews: $("#reviews")
+							}), $(document).on("click", "#button_review", function() {
+								bm.review.write()
+							}), $(document).on("click", ".review .reply-to", function() {
+								bm.review.reply($(this).data("review-id"), $(this).data("author"))
+							}), $(document).on("click", ".cancel-reply", function(e) {
+								bm.review.cancelReply(), e.preventDefault()
+							}), $(document).on("click", ".review .delete", function(e) {
+								bm.review["delete"]($(this).data("review-id"))
+							}), $(document).on("change", "input[name=from]", function(e) {
+								bm.review.mode()
+							});
+							var e = 0;
+							$("#fileupload").fileinput({
+								uploadUrl: "index.php?route=extension/d_blog_module/review/uploadFile",
+								allowedFileExtensions: ["jpg", "png", "gif"],
+								maxImageWidth: 500,
+								maxImageHeight: 500,
+								maxFileCount: 5
+							}).on("filesuccessremove", function(e, n) {
+								var i = $("#" + n + " > input[type=hidden]").val();
+								$.ajax({
+									url: "index.php?route=extension/d_blog_module/review/deleteFile",
+									type: "post",
+									data: "code=" + i,
+									dataType: "json",
+									success: function() {
+										json.success && console.log(json.success)
+									}
+								})
+							}).on("fileuploaded", function(n, i, t, a) {
+								var o = new Date,
+									r = (o.getTime(), '<input type="hidden" name="images[' + e + ']" value="' + i.response.code + '">');
+								$("#" + t).append(r), e++
+							}), $(".review [class^='thumbnail']").magnificPopup({
+								type: "image",
+								gallery: {
+									enabled: !0
+								}
+							})
+						});
+						</script>
+					</div>
+				</article>
+				<script>
+				$(function() {
+					$(".popup").magnificPopup({
+						type: "image",
+						gallery: {
+							enabled: !0
+						}
+					})
+				});
+				</script>
+			</main>
+		</div>
+	</div>
+	<footer class="footer_widgets color_two">
+		<div class="footer_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-12 col-sm-7">
+						<div class="widgets_container contact_us">
+							<div class="footer_logo">
+								<a href="http://www.futurealiti.com/index.php?_route_=index-2.html"><img src="catalog/view/assets/img/logo/logo.png" alt=""></a>
+							</div>
+							<p class="footer_desc">We are a team of professionals that create high quality Oil Products.</p>
+							<p><span>Address:</span> Corporate Office: 42-S, Block 6, PECHS, Karachi.</p>
+							<p><span>Email:</span> <a href="#">customerservices@homstore.pk</a></p>
+							<p><span>Call us:</span> <a href="#">021-111-466-426</a></p>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-5">
+						<div class="widgets_container widget_menu">
+							<h3>Homestore</h3>
+							<div class="footer_menu">
+								<ul>
+									<li><a href="http://hom.com.pk/oil/about/">About Us</a></li>
+									<li><a href="http://hom.com.pk/group/careers/">Carrer</a></li>
+									<li><a href="index2724.html?route=information/contact">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-3 col-sm-4">
+						<div class="widgets_container widget_menu">
+							<h3>Customer Care</h3>
+							<div class="footer_menu">
+								<ul>
+									<li><a href="index9328.html?route=common/home">Home</a></li>
+									<li><a href="index99e4.html?route=information/information&amp;information_id=5">Terms and Conditions</a></li>
+									<li><a href="index1679.html?route=information/information&amp;information_id=3">Privacy Policy</a></li>
+									<li><a href="index1766.html?route=information/information&amp;information_id=6">FAQ</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-8">
+						<div class="widgets_container widget_newsletter">
+							<h3>Sign up newsletter</h3>
+							<p class="footer_desc">Get updates by subscribe our weekly newsletter</p>
+							<div class="subscribe_form">
+								<form id="mc-form" class="mc-form footer-newsletter">
+									<input id="mc-email" type="email" autocomplete="off" placeholder="Enter you email">
+									<button id="mc-submit">Subscribe</button>
+								</form>
+								<div class="mailchimp-alerts text-centre">
+									<div class="mailchimp-submitting"></div>
+									<div class="mailchimp-success"></div>
+									<div class="mailchimp-error"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-7">
+						<div class="copyright_area">
+							<p>Copyright © 2021 <a href="https://www.futurealiti.com/">Futurealiti</a></p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-5">
+						<div class="copyright_area">
+							<p style="text-align:right">Website Powered by <a href="https://www.futurealiti.com/">Futurealiti</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal fade" id="modal_box" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="icon-x"></i></span></button>
+				<div class="modal_body">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-5 col-md-5 col-sm-12">
+								<div class="modal_tab">
+									<div class="tab-content product-details-large">
+										<div class="tab-pane fade show active" id="tab1" role="tabpanel">
+											<div class="modal_tab_img">
+												<a href="#"><img src="catalog/view/assets/img/product/productbig1.jpg" alt=""></a>
+											</div>
+										</div>
+										<div class="tab-pane fade" id="tab2" role="tabpanel">
+											<div class="modal_tab_img">
+												<a href="#"><img src="catalog/view/assets/img/product/productbig2.jpg" alt=""></a>
+											</div>
+										</div>
+										<div class="tab-pane fade" id="tab3" role="tabpanel">
+											<div class="modal_tab_img">
+												<a href="#"><img src="catalog/view/assets/img/product/productbig3.jpg" alt=""></a>
+											</div>
+										</div>
+										<div class="tab-pane fade" id="tab4" role="tabpanel">
+											<div class="modal_tab_img">
+												<a href="#"><img src="catalog/view/assets/img/product/productbig4.jpg" alt=""></a>
+											</div>
+										</div>
+									</div>
+									<div class="modal_tab_button">
+										<ul class="nav product_navactive owl-carousel" role="tablist">
+											<li>
+												<a class="nav-link active" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false"><img src="catalog/view/assets/img/product/product1.html" alt=""></a>
+											</li>
+											<li>
+												<a class="nav-link" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false"><img src="catalog/view/assets/img/product/product6.html" alt=""></a>
+											</li>
+											<li>
+												<a class="nav-link button_three" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false"><img src="catalog/view/assets/img/product/product2.html" alt=""></a>
+											</li>
+											<li>
+												<a class="nav-link" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false"><img src="catalog/view/assets/img/product/product7.jpg" alt=""></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7 col-md-7 col-sm-12">
+								<div class="modal_right">
+									<div class="modal_title mb-10">
+										<h2>Donec Ac Tempus</h2></div>
+									<div class="modal_price mb-10"><span class="new_price">$64.99</span> <span class="old_price">$78.99</span></div>
+									<div class="modal_description mb-15">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste laborum ad impedit pariatur esse optio tempora sint ullam autem deleniti nam in quos qui nemo ipsum numquam, reiciendis maiores quidem aperiam, rerum vel recusandae</p>
+									</div>
+									<div class="variants_selects">
+										<div class="variants_size">
+											<h2>size</h2>
+											<select class="select_option">
+												<option selected value="1">s</option>
+												<option value="1">m</option>
+												<option value="1">l</option>
+												<option value="1">xl</option>
+												<option value="1">xxl</option>
+											</select>
+										</div>
+										<div class="variants_color">
+											<h2>color</h2>
+											<select class="select_option">
+												<option selected value="1">purple</option>
+												<option value="1">violet</option>
+												<option value="1">black</option>
+												<option value="1">pink</option>
+												<option value="1">orange</option>
+											</select>
+										</div>
+										<div class="modal_add_to_cart">
+											<form action="#">
+												<input min="1" max="100" step="2" value="1" type="number">
+												<button type="submit">add to cart</button>
+											</form>
+										</div>
+									</div>
+									<div class="modal_social">
+										<h2>Share this product</h2>
+										<ul>
+											<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li class="pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+											<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+											<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="catalog/view/assets/js/popper.js"></script>
+	<script src="catalog/view/assets/js/bootstrap.min.js"></script>
+	<script src="catalog/view/assets/js/owl.carousel.min.js"></script>
+	<script src="catalog/view/assets/js/slick.min.js"></script>
+	<script src="catalog/view/assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="catalog/view/assets/js/jquery.counterup.min.js"></script>
+	<script src="catalog/view/assets/js/jquery.countdown.js"></script>
+	<script src="catalog/view/assets/js/jquery.ui.js"></script>
+	<script src="catalog/view/assets/js/jquery.elevatezoom.js"></script>
+	<script src="catalog/view/assets/js/isotope.pkgd.min.js"></script>
+	<script src="catalog/view/assets/js/slinky.menu.js"></script>
+	<script src="catalog/view/assets/js/jquery.instagramFeed.min.js"></script>
+	<script src="catalog/view/assets/js/tippy-bundle.umd.js"></script>
+	<script src="catalog/view/assets/js/plugins.js"></script>
+	<script src="catalog/view/assets/js/main.js"></script>
+	<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	var Tawk_API = Tawk_API || {},
+		Tawk_LoadStart = new Date;
+	! function() {
+		var e = document.createElement("script"),
+			n = document.getElementsByTagName("script")[0];
+		e.async = !0, e.src = "https://embed.tawk.to/61d426ed969d3d2539a081e5/1foibg4c8", e.charset = "UTF-8", e.setAttribute("crossorigin", "*"), n.parentNode.insertBefore(e, n)
+	}();
+	</script>
+</body>
+
+</html>
