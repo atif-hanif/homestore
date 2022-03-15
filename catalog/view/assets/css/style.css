@@ -7756,6 +7756,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 	margin-right: 35px;
 	line-height: 26px;
 	position: relative;
+	padding: 7px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -7766,7 +7767,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 .product_info_button ul li a.active {
-	color: #333333;
+	background-color: #c90000;
+	color: #fff;
+	padding: 7px;
 }
 
 .product_info_button ul li a:hover {
