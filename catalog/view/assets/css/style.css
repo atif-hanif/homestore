@@ -14014,3 +14014,67 @@ p {
 	width: 15%;
 	padding: 15px 0px;
 }
+
+/* Account */
+
+.dashboard {
+	background-color: #fff !important;
+	/* border: 1px solid #c90000 !important; */
+	text-align: center;
+	padding: 25px 0 10px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dashboard img {
+	filter: invert();
+}
+
+.dashboard a {
+	color: #000;
+}
+
+.custom-card {
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+.custom-card a {
+	color: #c90000;
+    font-weight: 500;
+}
+
+.dashboard.active {
+	background-color: #c90000 !important;
+}
+
+.dashboard.active a {
+	color: #fff;
+}
+
+.dashboard.active img {
+	filter: inherit;
+}
+
+.buttons .btn-danger {
+	margin-left: 0px !important;
+}
+
+.address-location {
+	top: 20px;
+    left: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #f0a600;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 30%;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+	margin: 0 auto;
+}
+
+.address-table {
+	margin-bottom: 0px !important;
+}

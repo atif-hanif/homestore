@@ -422,13 +422,13 @@
                                 </a>
                             </li>
                             <li class="breadcrumb-item custom-breadcrumb">
-                                <a href="wishlist.html" class="px-md-3 pe-1 my-3">Wishlist</a>
+                                <a href="order.html" class="px-md-3 pe-1 my-3">Order</a>
                             </li>
                         </ol>
                     </nav>
 				</div>
 			</div>
-            <h3 class="mt-4">Wishlist</h3>
+            <h3 class="mt-4">Orders</h3>
 			<div class="row mt-4">
                 <div class="col">                
                     <div class="dashboard">
@@ -459,7 +459,7 @@
                 </div>
 
                 <div class="col">                
-                    <div class="dashboard active">
+                    <div class="dashboard">
                         <img src="catalog/view/assets/img/icon/favourite-list.png" alt="Wishlist">
                         <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/wishlist" class="nav-link">Wish List</a>
                     </div>
@@ -468,7 +468,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col">                
-                    <div class="dashboard">
+                    <div class="dashboard active">
                         <img src="catalog/view/assets/img/icon/orders.png" alt="Order">
                         <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/order" class="nav-link">Orders</a>
                     </div>
@@ -476,7 +476,7 @@
 
                 <div class="col">                
                     <div class="dashboard">
-                        <img src="catalog/view/assets/img/icon/rewards-points.png" alt="Rewards Points">
+                        <img src="catalog/view/assets/img/icon/rewards-points.png" alt="Rewards Point">
                         <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/reward" class="nav-link">Rewards Points</a>
                     </div>
                 </div>
@@ -506,8 +506,90 @@
                 <div class="col-sm-12">
                     <div class="card custom-card">
                         <div class="card-body">
-                            <p>Your Wish list is empty.</p>
-                            <div class="buttons clearfix">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <td class="text-center">Order ID</td>
+                                            <td class="text-center">Customer</td>
+                                            <td class="text-center">No. of Products</td>
+                                            <td class="text-center">Status</td>
+                                            <td class="text-center">Total</td>
+                                            <td class="text-center">Date Added</td>
+                                            <td></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">#1102</td>
+                                            <td class="text-center">Testcase Y4</td>
+                                            <td class="text-center">1</td>
+                                            <td class="text-center">Pending</td>
+                                            <td class="text-center">Rs 1,857.91</td>
+                                            <td class="text-center">11/03/2022</td>
+                                            <td class="text-center"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/order/info&amp;order_id=1102" data-toggle="tooltip" title="" class="btn btn-danger" data-bs-original-title="View" aria-label="View"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">#1101</td>
+                                            <td class="text-center">Testcase Y4</td>
+                                            <td class="text-center">1</td>
+                                            <td class="text-center">Pending</td>
+                                            <td class="text-center">Rs 1,857.91</td>
+                                            <td class="text-center">11/03/2022</td>
+                                            <td class="text-center"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/order/info&amp;order_id=1101" data-toggle="tooltip" title="" class="btn btn-danger" data-bs-original-title="View" aria-label="View"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">#1044</td>
+                                            <td class="text-center">Test CaseY3</td>
+                                            <td class="text-center">1</td>
+                                            <td class="text-center">Pending</td>
+                                            <td class="text-center">Rs 1.00</td>
+                                            <td class="text-center">15/02/2022</td>
+                                            <td class="text-center"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/order/info&amp;order_id=1044" data-toggle="tooltip" title="" class="btn btn-danger" data-bs-original-title="View" aria-label="View"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">#1043</td>
+                                            <td class="text-center">Test CaseY3</td>
+                                            <td class="text-center">1</td>
+                                            <td class="text-center">Pending</td>
+                                            <td class="text-center">Rs 1,565.41</td>
+                                            <td class="text-center">15/02/2022</td>
+                                            <td class="text-center"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/order/info&amp;order_id=1043" data-toggle="tooltip" title="" class="btn btn-danger" data-bs-original-title="View" aria-label="View"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">#1042</td>
+                                            <td class="text-center">Test CaseY3</td>
+                                            <td class="text-center">1</td>
+                                            <td class="text-center">Pending</td>
+                                            <td class="text-center">Rs 1,565.41</td>
+                                            <td class="text-center">15/02/2022</td>
+                                            <td class="text-center"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/order/info&amp;order_id=1042" data-toggle="tooltip" title="" class="btn btn-danger" data-bs-original-title="View" aria-label="View"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">#1036</td>
+                                            <td class="text-center">Test CaseY3</td>
+                                            <td class="text-center">1</td>
+                                            <td class="text-center">Pending</td>
+                                            <td class="text-center">Rs 1,846.21</td>
+                                            <td class="text-center">10/02/2022</td>
+                                            <td class="text-center"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/order/info&amp;order_id=1036" data-toggle="tooltip" title="" class="btn btn-danger" data-bs-original-title="View" aria-label="View"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">#1031</td>
+                                            <td class="text-center">Test CaseY3</td>
+                                            <td class="text-center">1</td>
+                                            <td class="text-center">Delivered</td>
+                                            <td class="text-center">Rs 1,872.39</td>
+                                            <td class="text-center">10/02/2022</td>
+                                            <td class="text-center"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/order/info&amp;order_id=1031" data-toggle="tooltip" title="" class="btn btn-danger" data-bs-original-title="View" aria-label="View"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 justify-content-end d-flex">Showing 1 to 7 of 7 (1 Pages)</div>
+                            </div>
+                            <div class="buttons clearfix mt-2">
                                 <div class="pull-right">
                                     <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/account" class="btn btn-danger">Continue</a>
                                 </div>

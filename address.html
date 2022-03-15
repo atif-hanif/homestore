@@ -422,13 +422,13 @@
                                 </a>
                             </li>
                             <li class="breadcrumb-item custom-breadcrumb">
-                                <a href="wishlist.html" class="px-md-3 pe-1 my-3">Wishlist</a>
+                                <a href="address.html" class="px-md-3 pe-1 my-3">Addresses</a>
                             </li>
                         </ol>
                     </nav>
 				</div>
 			</div>
-            <h3 class="mt-4">Wishlist</h3>
+            <h3 class="mt-4">Addresses</h3>
 			<div class="row mt-4">
                 <div class="col">                
                     <div class="dashboard">
@@ -452,14 +452,14 @@
                 </div>
 
                 <div class="col">                
-                    <div class="dashboard">
+                    <div class="dashboard active">
                         <img src="catalog/view/assets/img/icon/address.png" alt="Addresses">
                         <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/address" class="nav-link">Addresses</a>
                     </div>
                 </div>
 
                 <div class="col">                
-                    <div class="dashboard active">
+                    <div class="dashboard">
                         <img src="catalog/view/assets/img/icon/favourite-list.png" alt="Wishlist">
                         <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/wishlist" class="nav-link">Wish List</a>
                     </div>
@@ -506,11 +506,41 @@
                 <div class="col-sm-12">
                     <div class="card custom-card">
                         <div class="card-body">
-                            <p>Your Wish list is empty.</p>
-                            <div class="buttons clearfix">
-                                <div class="pull-right">
-                                    <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/account" class="btn btn-danger">Continue</a>
-                                </div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-hover address-table">
+                                    <tbody>
+                                        <tr>
+                                            <th class="text-center">Full Name</th>
+                                            <th class="text-center">Address</th>
+                                            <th class="text-center">Region</th> 
+                                            <th class="text-center">Action</th> 
+                                        </tr>
+                                        <tr>
+                                            <td>Test CaseY3</td>
+                                            <td><span class="address-location">Office</span>123</td>
+                                            <td> - undefined</td>            
+                                            <td class="text-right"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/address/edit&amp;address_id=239" class="btn btn-danger">Edit</a> &nbsp; <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/address/delete&amp;address_id=239" class="btn btn-danger">Delete</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Office One</td>
+                                            <td><span class="address-location">Office</span>Address office </td>
+                                            <td> - Karachi -Askari Askari 1</td>            
+                                            <td class="text-right"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/address/edit&amp;address_id=250" class="btn btn-danger">Edit</a> &nbsp; <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/address/delete&amp;address_id=250" class="btn btn-danger">Delete</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Other One</td>
+                                            <td><span class="address-location">Office</span>Other addresses </td>
+                                            <td> - undefined</td>            
+                                            <td class="text-right"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/address/edit&amp;address_id=251" class="btn btn-danger">Edit</a> &nbsp; <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/address/delete&amp;address_id=251" class="btn btn-danger">Delete</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Home  Address</td>
+                                            <td><span class="address-location">Home</span>Home address</td>
+                                            <td> - Karachi -AB Sinia Colony AB Sinia Colony</td>            
+                                            <td class="text-right"><a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/address/edit&amp;address_id=255" class="btn btn-danger">Edit</a> &nbsp; <a href="http://futurealiti.com/projects/web/hom_latest/index.php?route=account/address/delete&amp;address_id=255" class="btn btn-danger">Delete</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
