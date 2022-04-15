@@ -3859,6 +3859,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .product_tab_btn ul {
 	justify-content: center;
+	display: inline-flex;
 }
 
 .product_tab_btn ul li {
